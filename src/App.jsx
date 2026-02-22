@@ -2,8 +2,8 @@ import React from 'react';
 // Importing our modular components
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Team from './components/Team';
-import Services from './components/Services';
+import About from './components/About';
+// import Services from './components/Services';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -22,8 +22,8 @@ function App() {
       
       <main>
         <Hero />
-        <Team />
-        <Services />
+        <About />
+        {/* <Services /> */}
         <Projects />
         <Contact />
       </main>

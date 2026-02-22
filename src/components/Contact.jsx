@@ -14,13 +14,13 @@ const Contact = () => {
     // In a real app, you would send this data to a server.
     // For this example, we'll just log a success message to the browser console.
     console.log("Form submitted successfully! In a real project, this would send an email.");
-    alert("Thank you for your message! Our team will get back to you soon.");
+    alert("Thank you for your message! I will get back to you soon.");
   };
 
   return (
     <section id="contact" className="py-24 px-10 md:px-24 bg-bgSecondary/30">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-        Contact <span className="text-main">Us!</span>
+        Contact <span className="text-main">Me!</span>
       </h2>
 
       <div className="max-w-3xl mx-auto">

@@ -31,7 +31,7 @@ const Services = () => {
   return (
     <section id="services" className="py-24 px-10 md:px-24 bg-bgSecondary/30">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-        Our <span className="text-main">Services</span>
+        My <span className="text-main">Services</span>
       </h2>
 
       {/* Grid Layout for Services */}

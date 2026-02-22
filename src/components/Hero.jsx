@@ -26,16 +26,16 @@ const Hero = () => {
         transition={{ duration: 0.8 }}   // Animation takes 0.8 seconds
         className="max-w-xl"
       >
-        <h3 className="text-2xl font-bold">Hello, It's Us</h3>
+        <h3 className="text-2xl font-bold">Hello, It's Me</h3>
         <h1 className="text-5xl md:text-6xl font-bold my-2">
-          The <span className="text-main">Visionary 5</span>
+          Christian <span className="text-main">Narral</span>
         </h1>
         <h3 className="text-2xl font-bold mb-4">
-          We are <span className="text-main">Creative Developers & Designers</span>
+          I am a <span className="text-main">Creative Developer & Designer</span>
         </h3>
         <p className="text-gray-300 mb-8 leading-relaxed">
-          A multidisciplinary team of 5 passionate individuals dedicated to crafting exceptional digital experiences. 
-          From robust backend architectures to stunning frontend interfaces, we bring ideas to life.
+          A passionate individual dedicated to crafting exceptional digital experiences. 
+          From robust backend architectures to stunning frontend interfaces, I bring ideas to life with precision and creativity.
         </p>
 
         {/* Social Links Grid */}
@@ -53,10 +53,10 @@ const Hero = () => {
 
         {/* Call to Action Button */}
         <a 
-          href="#team" 
+          href="#about" 
           className="inline-block px-8 py-3 bg-main text-dark font-bold rounded-full shadow-[0_0_15px_rgba(0,238,255,0.4)] hover:shadow-[0_0_25px_rgba(0,238,255,0.6)] transition-all duration-300"
         >
-          Explore Our Team
+          About Me
         </a>
       </motion.div>
 
