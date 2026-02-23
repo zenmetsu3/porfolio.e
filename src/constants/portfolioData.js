@@ -14,7 +14,7 @@ export const ABOUT_ME = {
   name: "Christian Narral",
   role: "Creative Developer & Designer",
   bio: "My main hobbies are playing online games and solving the Rubik’s Cube, which help me develop focus, strategy, and quick decision-making. Gaming allows me to think critically and work as part of a team, especially in competitive environments. Solving the Rubik’s Cube challenges my problem-solving skills and improves my patience and concentration. Through these hobbies I continuously train myself to think faster stay determined and enjoy every challenge I face.",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400"
+  image: "/images/profile.jpg"
 };
 
 // The services I offer
