@@ -17,6 +17,13 @@ export const ABOUT_ME = {
   image: "/images/profile.jpg"
 };
 
+// Social Media Links
+export const SOCIAL_LINKS = {
+  github: "https://github.com/zenmetsu3",
+  linkedin: "#", // Add your LinkedIn URL here
+  email: "christiannarral18@gmail.com"
+};
+
 // The services I offer
 export const SERVICES = [
   {
@@ -43,38 +50,36 @@ export const SERVICES = [
 export const PROJECTS = [
   {
     id: 'p1',
-    title: "E-Commerce Platform",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+    title: "Student Information System",
+    category: "Web Application",
+    image: "/images/student-info-system.png"
   },
   {
     id: 'p2',
-    title: "AI Dashboard",
-    category: "Software Dev",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+    title: "Team Portfolio",
+    category: "Web Design & Development",
+    image: "/images/team-portfolio.png"
+  }
+];
+
+// Technical Expertise
+export const TECH_STACK = [
+  {
+    category: "Frontend",
+    icon: "F",
+    skills: ["React", "Vite", "Tailwind CSS", "shadcn/ui", "Responsive Layouts", "Accessibility Basics"],
+    description: "I specialize in building responsive, user-friendly interfaces using modern React ecosystems. My focus is on creating clean, accessible, and performant web applications that work seamlessly across all devices."
   },
   {
-    id: 'p3',
-    title: "Mobile Banking App",
-    category: "UI/UX Design",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+    category: "Backend",
+    icon: "B",
+    skills: ["REST API", "Node.js", "Express", "Database Fundamentals", "Auth Basics"],
+    description: "On the server side, I build robust and scalable APIs using Node.js and Express. I understand database management and authentication principles to ensure data security and integrity."
   },
   {
-    id: 'p4',
-    title: "Fitness Tracker",
-    category: "Mobile Dev",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 'p5',
-    title: "Travel Blog",
-    category: "Wordpress",
-    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 'p6',
-    title: "Corporate Website",
-    category: "Web Dev",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800"
+    category: "Tools",
+    icon: "T",
+    skills: ["Git", "Figma", "VS Code", "ESLint", "Postman", "Documentation"],
+    description: "I utilize a powerful suite of development tools to streamline my workflow. From version control with Git to UI design in Figma and API testing with Postman, these tools help me deliver high-quality code efficiently."
   }
 ];

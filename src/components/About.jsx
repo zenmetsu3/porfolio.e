@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Github } from 'lucide-react';
-import { ABOUT_ME } from '../constants/portfolioData';
+import { Github, Mail } from 'lucide-react';
+import { ABOUT_ME, SOCIAL_LINKS } from '../constants/portfolioData';
 
 /**
  * About Section Component
@@ -47,11 +47,21 @@ const About = () => {
 
           {/* Social Links */}
           <div className="flex justify-center md:justify-start gap-6">
-            <a href="#" className="p-3 border-2 border-main rounded-full text-main hover:bg-main hover:text-dark transition-all duration-300">
-              <Linkedin size={24} />
-            </a>
-            <a href="#" className="p-3 border-2 border-main rounded-full text-main hover:bg-main hover:text-dark transition-all duration-300">
+            <a 
+              href={SOCIAL_LINKS.github} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 border-2 border-main rounded-full text-main hover:bg-main hover:text-dark transition-all duration-300"
+              title="GitHub Profile"
+            >
               <Github size={24} />
+            </a>
+            <a 
+              href={`mailto:${SOCIAL_LINKS.email}`}
+              className="p-3 border-2 border-main rounded-full text-main hover:bg-main hover:text-dark transition-all duration-300"
+              title="Send Email"
+            >
+              <Mail size={24} />
             </a>
           </div>
         </motion.div>
