@@ -14,7 +14,7 @@ const Footer = () => {
       
       {/* Copyright Text */}
       <p className="text-gray-400 mb-4 md:mb-0">
-        Copyright © {currentYear} by Christian Narral | All Rights Reserved.
+        Copyright © {currentYear} by TechNova Collective | All Rights Reserved.
       </p>
 
       {/* Back to Top Button */}

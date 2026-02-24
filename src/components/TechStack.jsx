@@ -37,8 +37,8 @@ const TechStack = () => {
           Technical <span className="text-main">Expertise</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-          I rely on a modern, robust tech stack to deliver high-quality solutions. 
-          Click on any card below to learn more about my specific skills and tools.
+          We rely on a modern, robust tech stack to deliver high-quality solutions. 
+          Click on any card below to learn more about our specific skills and tools.
         </p>
       </div>
 

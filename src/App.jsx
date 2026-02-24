@@ -2,10 +2,13 @@ import React from 'react';
 // Importing our modular components
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
+import Mission from './components/Mission';
+import Team from './components/Team';
 import TechStack from './components/TechStack';
 // import Services from './components/Services';
 import Projects from './components/Projects';
+import Roadmap from './components/Roadmap';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -23,7 +26,8 @@ function App() {
       
       <main>
         <Hero />
-        <About />
+        <Mission />
+        <Team />
         <TechStack />
         {/* <Services /> */}
         <Projects />

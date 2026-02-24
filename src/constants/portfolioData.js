@@ -7,9 +7,134 @@
 import { Code2, Palette, Globe } from 'lucide-react';
 
 // Navigation links for the header
-export const NAV_LINKS = ['Home', 'About', 'Projects', 'Contact'];
+export const NAV_LINKS = ['Home', 'Team', 'Mission', 'Projects', 'Contact'];
 
-// Information about me
+// Team Information & Executive Summary
+export const TEAM_INFO = {
+  name: "TechNova Collective",
+  tagline: "Innovating Tomorrow, Today",
+  mission: "To learn, collaborate, and build innovative web applications that solve real-world problems while mastering new technologies.",
+  vision: "To become proficient full-stack developers and contribute to the tech community through open-source projects and creative solutions.",
+  values: [
+    { title: "Curiosity", description: "Always asking 'how does this work?' and exploring new tools." },
+    { title: "Teamwork", description: "Supporting each other and learning from our shared experiences." },
+    { title: "Growth", description: "Focusing on continuous improvement and learning from our mistakes." }
+  ]
+};
+
+// Team Members Information
+export const TEAM_MEMBERS = [
+  {
+    id: 't1',
+    name: "Christian Narral",
+    role: "Lead Developer",
+    yearLevel: "3rd Year Student",
+    studentId: "UA202301991",
+    program: "BS Information Technology",
+    bio: "3rd Year Student & Lead Developer. Passionate about creating scalable web applications and solving complex problems. I oversee the technical architecture and ensure code quality.",
+    about: "I am a dedicated 3rd-year developer with a strong focus on modern web technologies. My journey in tech started with a curiosity about how things work, which led me to master the React ecosystem. I enjoy mentoring team members and tackling challenging bugs.",
+    contributions: [
+      "Architected the entire project structure",
+      "Implemented core authentication features",
+      "Optimized application performance"
+    ],
+    skills: ["React", "Node.js", "System Architecture"],
+    image: "/images/profile.jpg",
+    social: {
+      email: "christiannarral18@gmail.com",
+      github: "https://github.com/zenmetsu3",
+      resume: "#"
+    }
+  },
+  {
+    id: 't2',
+    name: "Sarah Johnson",
+    role: "UI/UX Designer",
+    program: "BS Information Technology",
+    bio: "Focuses on creating intuitive and visually appealing user interfaces. I bridge the gap between design and functionality.",
+    about: "Design is my passion. I believe that a good user interface should be invisible—it should just work. I spend my free time exploring new design trends and prototyping in Figma.",
+    contributions: [
+      "Designed the main layout and navigation",
+      "Created the color palette and typography system",
+      "Conducted user research and testing"
+    ],
+    skills: ["Figma", "UI Design", "Prototyping"],
+    image: "/images/profile.jpg",
+    social: {
+      email: "sarah@example.com",
+      github: "#",
+      resume: "#"
+    }
+  },
+  {
+    id: 't3',
+    name: "Michael Chen",
+    role: "Backend Engineer",
+    yearLevel: "1st Year Student",
+    studentId: "UA202501993",
+    program: "BS Computer Science",
+    bio: "Expert in database architecture and API design. I ensure the system is robust, secure, and high-performing.",
+    about: "I love working with data. From designing efficient schemas to writing complex queries, backend development is where I thrive. I'm also interested in cloud infrastructure and DevOps.",
+    contributions: [
+      "Designed and implemented the database schema",
+      "Built RESTful APIs for data retrieval",
+      "Set up server-side validation and security"
+    ],
+    skills: ["SQL", "Express", "API Design"],
+    image: "/images/profile.jpg",
+    social: {
+      email: "michael@example.com",
+      github: "#",
+      resume: "#"
+    }
+  },
+  {
+    id: 't4',
+    name: "Emily Davis",
+    role: "Project Manager",
+    yearLevel: "1st Year Student",
+    studentId: "UA202501994",
+    program: "BS Information Systems",
+    bio: "Keeps the team organized and on track. I facilitate effective communication and ensure we meet our milestones.",
+    about: "Organization is key to success. I use agile methodologies to keep the team focused and productive. I'm always looking for ways to improve our workflow and team dynamics.",
+    contributions: [
+      "Managed project timeline and deliverables",
+      "Facilitated daily stand-ups and sprint planning",
+      "Maintained project documentation"
+    ],
+    skills: ["Agile", "Communication", "Leadership"],
+    image: "/images/profile.jpg",
+    social: {
+      email: "emily@example.com",
+      github: "#",
+      resume: "#"
+    }
+  },
+  {
+    id: 't5',
+    name: "David Wilson",
+    role: "QA Specialist",
+    yearLevel: "1st Year Student",
+    studentId: "UA202501995",
+    program: "BS Information Technology",
+    bio: "Dedicated to ensuring software quality. I have a meticulous attention to detail and love breaking things to make them stronger.",
+    about: "Quality is not an act, it's a habit. I take pride in finding edge cases and ensuring our application is bug-free. I also contribute to the documentation to help users understand our software.",
+    contributions: [
+      "Created comprehensive test plans",
+      "Identified and reported critical bugs",
+      "Performed cross-browser compatibility testing"
+    ],
+    skills: ["Testing", "Debugging", "Quality Assurance"],
+    image: "/images/profile.jpg",
+    social: {
+      email: "david@example.com",
+      github: "#",
+      resume: "#"
+    }
+  }
+];
+
+// Information about me (kept for reference, can be removed if needed)
 export const ABOUT_ME = {
   name: "Christian Narral",
   role: "Creative Developer & Designer",
@@ -52,13 +177,65 @@ export const PROJECTS = [
     id: 'p1',
     title: "Student Information System",
     category: "Web Application",
-    image: "/images/student-info-system.png"
+    image: "/images/student-info-system.png",
+    metrics: [
+      { label: "Active Users", value: "500+" },
+      { label: "Efficiency Boost", value: "40%" },
+      { label: "Uptime", value: "99.9%" }
+    ],
+    outcomes: "Streamlined student data management, reducing administrative workload by automating grade tracking and enrollment processes."
   },
   {
     id: 'p2',
     title: "Team Portfolio",
     category: "Web Design & Development",
-    image: "/images/team-portfolio.png"
+    image: "/images/team-portfolio.png",
+    metrics: [
+      { label: "Performance Score", value: "98/100" },
+      { label: "Responsive Design", value: "100%" },
+      { label: "Team Members", value: "5" }
+    ],
+    outcomes: "Established a professional online presence for the team, showcasing individual skills and collective achievements."
+  }
+];
+
+// Strategic Roadmap
+export const ROADMAP = [
+  {
+    phase: "Phase 1: Foundation",
+    timeline: "Q1 2026",
+    goals: ["Team Assembly", "Core Skill Development", "Initial Portfolio Launch"],
+    status: "Completed"
+  },
+  {
+    phase: "Phase 2: Expansion",
+    timeline: "Q2 2026",
+    goals: ["Client Acquisition", "Advanced React Patterns", "Backend Integration"],
+    status: "In Progress"
+  },
+  {
+    phase: "Phase 3: Scaling",
+    timeline: "Q3 2026",
+    goals: ["SaaS Product Development", "Mobile App Launch", "Team Growth"],
+    status: "Planned"
+  }
+];
+
+// Client Testimonials
+export const TESTIMONIALS = [
+  {
+    id: "test1",
+    name: "Dr. Emily Carter",
+    role: "Dean, College of IT",
+    quote: "This team demonstrates exceptional technical prowess and a collaborative spirit rarely seen in undergraduate groups.",
+    image: "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    id: "test2",
+    name: "Mark Reynolds",
+    role: "Start-up Founder",
+    quote: "Their ability to translate complex requirements into user-friendly designs is impressive. A highly professional team.",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
   }
 ];
 
