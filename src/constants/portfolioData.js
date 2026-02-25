@@ -11,7 +11,7 @@ export const NAV_LINKS = ['Home', 'Team', 'Mission', 'Projects', 'Contact'];
 
 // Team Information & Executive Summary
 export const TEAM_INFO = {
-  name: "TechNova Collective",
+  name: "Team Portfolio",
   tagline: "Innovating Tomorrow, Today",
   mission: "To learn, collaborate, and build innovative web applications that solve real-world problems while mastering new technologies.",
   vision: "To become proficient full-stack developers and contribute to the tech community through open-source projects and creative solutions.",

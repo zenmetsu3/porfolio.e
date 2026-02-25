@@ -26,7 +26,7 @@ const Hero = () => {
       >
         <h3 className="text-2xl font-bold">Welcome to our digital space</h3>
         <h1 className="text-5xl md:text-6xl font-bold my-2">
-          TechNova <span className="text-main">Collective</span>
+          Team <span className="text-main">Portfolio</span>
         </h1>
         <h3 className="text-2xl font-bold mb-4">
           Architects of the <span className="text-main">Digital Future</span>
