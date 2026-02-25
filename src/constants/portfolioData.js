@@ -50,7 +50,7 @@ export const TEAM_MEMBERS = [
   {
     id: 't2',
     name: "Angel Joy L. Badoles",
-    yearLevel: "1st Year Student",
+    yearLevel: "2nd Year Student",
     role: "UI/UX Designer",
     studentId: "UA202401399" ,
     section: "LFAU122N002",
