@@ -29,7 +29,7 @@ export const TEAM_MEMBERS = [
     name: "Christian Narral",
     role: "Lead Developer",
     yearLevel: "3rd Year Student",
-    studentId: "UA202301991",
+    studentId: "UA202301978",
     program: "BS Information Technology",
     bio: "3rd Year Student & Lead Developer. Passionate about creating scalable web applications and solving complex problems. I oversee the technical architecture and ensure code quality.",
     about: "I am a dedicated 3rd-year developer with a strong focus on modern web technologies. My journey in tech started with a curiosity about how things work, which led me to master the React ecosystem. I enjoy mentoring team members and tackling challenging bugs.",
@@ -49,7 +49,9 @@ export const TEAM_MEMBERS = [
   {
     id: 't2',
     name: "Sarah Johnson",
+    yearLevel: "1st Year Student",
     role: "UI/UX Designer",
+    studentId: "UA2025" ,
     program: "BS Information Technology",
     bio: "Focuses on creating intuitive and visually appealing user interfaces. I bridge the gap between design and functionality.",
     about: "Design is my passion. I believe that a good user interface should be invisible—it should just work. I spend my free time exploring new design trends and prototyping in Figma.",
@@ -71,7 +73,7 @@ export const TEAM_MEMBERS = [
     name: "Michael Chen",
     role: "Backend Engineer",
     yearLevel: "1st Year Student",
-    studentId: "UA202501993",
+    studentId: "UA2025",
     program: "BS Computer Science",
     bio: "Expert in database architecture and API design. I ensure the system is robust, secure, and high-performing.",
     about: "I love working with data. From designing efficient schemas to writing complex queries, backend development is where I thrive. I'm also interested in cloud infrastructure and DevOps.",
@@ -93,7 +95,7 @@ export const TEAM_MEMBERS = [
     name: "Emily Davis",
     role: "Project Manager",
     yearLevel: "1st Year Student",
-    studentId: "UA202501994",
+    studentId: "UA2025",
     program: "BS Information Systems",
     bio: "Keeps the team organized and on track. I facilitate effective communication and ensure we meet our milestones.",
     about: "Organization is key to success. I use agile methodologies to keep the team focused and productive. I'm always looking for ways to improve our workflow and team dynamics.",
@@ -179,7 +181,7 @@ export const PROJECTS = [
     category: "Web Application",
     image: "/images/student-info-system.png",
     metrics: [
-      { label: "Active Users", value: "500+" },
+      { label: "Active Users", value: "5+" },
       { label: "Efficiency Boost", value: "40%" },
       { label: "Uptime", value: "99.9%" }
     ],
@@ -199,45 +201,7 @@ export const PROJECTS = [
   }
 ];
 
-// Strategic Roadmap
-export const ROADMAP = [
-  {
-    phase: "Phase 1: Foundation",
-    timeline: "Q1 2026",
-    goals: ["Team Assembly", "Core Skill Development", "Initial Portfolio Launch"],
-    status: "Completed"
-  },
-  {
-    phase: "Phase 2: Expansion",
-    timeline: "Q2 2026",
-    goals: ["Client Acquisition", "Advanced React Patterns", "Backend Integration"],
-    status: "In Progress"
-  },
-  {
-    phase: "Phase 3: Scaling",
-    timeline: "Q3 2026",
-    goals: ["SaaS Product Development", "Mobile App Launch", "Team Growth"],
-    status: "Planned"
-  }
-];
 
-// Client Testimonials
-export const TESTIMONIALS = [
-  {
-    id: "test1",
-    name: "Dr. Emily Carter",
-    role: "Dean, College of IT",
-    quote: "This team demonstrates exceptional technical prowess and a collaborative spirit rarely seen in undergraduate groups.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg"
-  },
-  {
-    id: "test2",
-    name: "Mark Reynolds",
-    role: "Start-up Founder",
-    quote: "Their ability to translate complex requirements into user-friendly designs is impressive. A highly professional team.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
-  }
-];
 
 // Technical Expertise
 export const TECH_STACK = [
