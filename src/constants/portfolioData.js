@@ -56,18 +56,29 @@ export const TEAM_MEMBERS = [
     section: "LFAU122N002",
     program: "BS Information Technology",
     bio: "Focuses on creating intuitive and visually appealing user interfaces. I bridge the gap between design and functionality.",
-    about: "Design is my passion. I believe that a good user interface should be invisible—it should just work. I spend my free time exploring new design trends and prototyping in Figma.",
-    contributions: [
-      "Designed the main layout and navigation",
-      "Created the color palette and typography system",
-      "Conducted user research and testing"
-    ],
-    skills: ["Figma", "UI Design", "Prototyping"],
     image: "/images/4abd6de9-a3b6-43b8-85b4-83d6efbc843d.jpg",
     social: {
       email: "angeljoybadoles6@gmail.com",
       github: "#",
       resume: "#"
+    },
+    personalInfo: {
+      Address: "0052 Zapanta Compound, MLQ Extension, Brgy. San Roque, Antipolo City, Rizal",
+      Email: "angeljoybadoles6@gmail.com",
+      Age: "20",
+      Birthday: "January 11, 2006",
+      Birthplace: "Pangasinan",
+      Hobbies: "Playing guitar, listening to music",
+      Talent: "Playing the guitar",
+      Crush: "None"
+    },
+    parents: {
+      Father: "Nick B. Badoles – Delivery Driver at Evolve Transport Solutions",
+      Mother: "Juvy L. Badoles – Housewife"
+    },
+    customAbout: {
+      title: "About Me/Dream course",
+      content: "As a 2nd-year BSIT college student who is focused on improving my skills and pursuing a future career in the IT field. I am determined and committed to finishing my studies and achieving my goals."
     }
   },
   {
@@ -125,18 +136,27 @@ export const TEAM_MEMBERS = [
     section: "LFAU122N002",
     program: "BS Information Technology",
     bio: "Passionate about creating responsive and interactive web experiences. I love bringing designs to life with clean code.",
-    about: "I enjoy the creative aspect of frontend development. Experimenting with new libraries and frameworks is my favorite way to learn. I strive to create seamless user experiences.",
-    contributions: [
-      "Implemented responsive design features",
-      "Collaborated on UI component library",
-      "Optimized frontend performance"
-    ],
-    skills: ["React", "CSS", "JavaScript"],
     image: "/images/639667023_2151412372358405_7534846141430345793_n.jpg",
     social: {
       email: "kyzrellejaygatlabayan@gmail.com",
       github: "#",
       resume: "#"
+    },
+    personalInfo: {
+      Age: "18",
+      Address: "Main st. Cor. 2nd st. Oreta Brgy. San Isidro Antipolo City",
+      Birthday: "July 15 2007",
+      "Birth Place": "Antipolo city rizal",
+      "Motto in Life": "Kung hindi ngayon, Kailan pa",
+      Hobby: "Playing basketball",
+      Talent: "Singing",
+      "Dream Course": "Seaman but have not enough money",
+      "Reason for Choosing Course": "because this is ny second choice",
+      Crush: "Jezzabel Sumayang my baby"
+    },
+    parents: {
+      Mother: "Ivy Marie Dizon Gatlabayan (House wife)",
+      Father: "Calixto Bagtas Gatlabayan jr ( Tricycle Driver, Motor Mechanic)"
     }
   }
 ];

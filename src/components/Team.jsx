@@ -127,6 +127,7 @@ const Team = () => {
                     <h2 className="text-3xl font-bold text-white">{selectedMember.name}</h2>
                     <p className="text-main font-semibold text-lg">{selectedMember.role}</p>
                     <p className="text-gray-400 text-sm mt-1">{selectedMember.program}</p>
+                    <p className="text-gray-500 text-xs mt-1">({selectedMember.section})</p>
                     
                     <div className="flex gap-3 mt-6 justify-center md:justify-start">
                       {selectedMember.social.email && (
@@ -154,50 +155,103 @@ const Team = () => {
 
                 {/* Right Column: Details */}
                 <div className="flex-1 mt-4 md:mt-16">
-                  {/* About Section */}
-                  <div className="mb-8">
-                    <div className="flex items-center gap-2 mb-3">
-                      <div className="w-1 h-6 bg-main rounded-full"></div>
-                      <h3 className="text-xl font-bold text-white">About</h3>
-                    </div>
-                    <p className="text-gray-300 leading-relaxed">
-                      {selectedMember.about || selectedMember.bio}
-                    </p>
-                  </div>
-
-                  {/* Key Contributions */}
-                  {selectedMember.contributions && (
-                    <div className="mb-8">
-                      <div className="flex items-center gap-2 mb-4">
-                        <div className="w-1 h-6 bg-main rounded-full"></div>
-                        <h3 className="text-xl font-bold text-white">Key Contributions</h3>
+                  {selectedMember.personalInfo ? (
+                    <>
+                      {/* Personal Info */}
+                      <div className="mb-8">
+                        <div className="flex items-center gap-2 mb-4">
+                          <div className="w-1 h-6 bg-main rounded-full"></div>
+                          <h3 className="text-xl font-bold text-white">Personal Information</h3>
+                        </div>
+                        <div className="grid grid-cols-1 gap-4 text-gray-300">
+                          {Object.entries(selectedMember.personalInfo).map(([key, value]) => (
+                            <div key={key} className="flex flex-col sm:flex-row sm:gap-2">
+                              <span className="font-bold text-main min-w-[100px] capitalize">• {key}:</span>
+                              <span>{value}</span>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {selectedMember.contributions.map((item, idx) => (
-                          <div key={idx} className="bg-bgSecondary/30 p-4 rounded-xl border border-gray-800 flex items-start gap-3">
-                            <div className="w-2 h-2 mt-2 bg-main rounded-full shrink-0"></div>
-                            <p className="text-gray-300 text-sm">{item}</p>
+
+                      {/* Parents/Work */}
+                      {selectedMember.parents && (
+                        <div className="mb-8">
+                          <div className="flex items-center gap-2 mb-4">
+                            <div className="w-1 h-6 bg-main rounded-full"></div>
+                            <h3 className="text-xl font-bold text-white">PARENTS/WORK</h3>
                           </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                          <div className="grid grid-cols-1 gap-4 text-gray-300">
+                            {Object.entries(selectedMember.parents).map(([key, value]) => (
+                              <div key={key} className="flex flex-col sm:flex-row sm:gap-2">
+                                <span className="font-bold text-main min-w-[100px] capitalize">• {key}:</span>
+                                <span>{value}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
 
-                  {/* Skills */}
-                  {selectedMember.skills && (
-                    <div className="mb-8">
-                      <div className="flex items-center gap-2 mb-4">
-                        <div className="w-1 h-6 bg-main rounded-full"></div>
-                        <h3 className="text-xl font-bold text-white">Skills & Focus Areas</h3>
+                      {/* Custom About */}
+                      {selectedMember.customAbout && (
+                        <div className="mb-8">
+                          <div className="flex items-center gap-2 mb-3">
+                            <div className="w-1 h-6 bg-main rounded-full"></div>
+                            <h3 className="text-xl font-bold text-white">{selectedMember.customAbout.title}</h3>
+                          </div>
+                          <p className="text-gray-300 leading-relaxed">
+                            {selectedMember.customAbout.content}
+                          </p>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <>
+                      {/* About Section */}
+                      <div className="mb-8">
+                        <div className="flex items-center gap-2 mb-3">
+                          <div className="w-1 h-6 bg-main rounded-full"></div>
+                          <h3 className="text-xl font-bold text-white">About</h3>
+                        </div>
+                        <p className="text-gray-300 leading-relaxed">
+                          {selectedMember.about || selectedMember.bio}
+                        </p>
                       </div>
-                      <div className="flex flex-wrap gap-2">
-                        {selectedMember.skills.map((skill, idx) => (
-                          <span key={idx} className="px-4 py-1.5 bg-bgSecondary rounded-full text-sm font-medium text-gray-300 border border-gray-700">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
+
+                      {/* Key Contributions */}
+                      {selectedMember.contributions && (
+                        <div className="mb-8">
+                          <div className="flex items-center gap-2 mb-4">
+                            <div className="w-1 h-6 bg-main rounded-full"></div>
+                            <h3 className="text-xl font-bold text-white">Key Contributions</h3>
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {selectedMember.contributions.map((item, idx) => (
+                              <div key={idx} className="bg-bgSecondary/30 p-4 rounded-xl border border-gray-800 flex items-start gap-3">
+                                <div className="w-2 h-2 mt-2 bg-main rounded-full shrink-0"></div>
+                                <p className="text-gray-300 text-sm">{item}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Skills */}
+                      {selectedMember.skills && (
+                        <div className="mb-8">
+                          <div className="flex items-center gap-2 mb-4">
+                            <div className="w-1 h-6 bg-main rounded-full"></div>
+                            <h3 className="text-xl font-bold text-white">Skills & Focus Areas</h3>
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {selectedMember.skills.map((skill, idx) => (
+                              <span key={idx} className="px-4 py-1.5 bg-bgSecondary rounded-full text-sm font-medium text-gray-300 border border-gray-700">
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </>
                   )}
 
                   {/* Footer Action */}
