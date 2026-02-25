@@ -147,7 +147,6 @@ export const ABOUT_ME = {
 // Social Media Links
 export const SOCIAL_LINKS = {
   github: "https://github.com/zenmetsu3",
-  linkedin: "#", // Add your LinkedIn URL here
   email: "christiannarral18@gmail.com"
 };
 

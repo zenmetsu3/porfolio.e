@@ -1,5 +1,6 @@
 import React from 'react';
 import { NAV_LINKS } from '../constants/portfolioData';
+import { Cog } from 'lucide-react';
 
 /**
  * Navbar Component
@@ -10,8 +11,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full px-10 py-6 flex justify-between items-center bg-dark/80 backdrop-blur-md z-50">
       {/* Website Logo */}
-      <a href="#" className="text-2xl font-bold text-white">
-        Portfolio<span className="text-main">.</span>
+      <a href="#" className="text-2xl font-bold text-white flex items-center gap-3">
+        <Cog size={26} className="text-main" />
+        <span>Team Portfolio</span>
       </a>
 
       {/* Navigation Menu - Hidden on small screens (mobile) */}

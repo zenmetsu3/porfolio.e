@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Twitter, Github, Mail, Linkedin } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 
 /**
  * Hero Component
@@ -10,10 +10,8 @@ import { Twitter, Github, Mail, Linkedin } from 'lucide-react';
 const Hero = () => {
   // Social icons configuration
   const socialIcons = [
-    { Icon: Twitter, href: "#" },
     { Icon: Github, href: "#" },
     { Icon: Mail, href: "#" },
-    { Icon: Linkedin, href: "#" },
   ];
 
   return (
@@ -26,17 +24,16 @@ const Hero = () => {
         transition={{ duration: 0.8 }}   // Animation takes 0.8 seconds
         className="max-w-xl"
       >
-        <h3 className="text-2xl font-bold">Hello, We Are</h3>
+        <h3 className="text-2xl font-bold">Welcome to our digital space</h3>
         <h1 className="text-5xl md:text-6xl font-bold my-2">
           TechNova <span className="text-main">Collective</span>
         </h1>
         <h3 className="text-2xl font-bold mb-4">
-          We are <span className="text-main">Creative Developers & Innovators</span>
+          Architects of the <span className="text-main">Digital Future</span>
         </h3>
         <p className="text-gray-300 mb-8 leading-relaxed">
-          We are a group of passionate college students dedicated to technology and coding. 
-          This portfolio showcases our journey as we learn, build, and grow together. 
-          We love turning our class projects into real-world applications and exploring the latest web technologies as a team.
+          We are a squad of driven student developers turning ideas into interactive reality. 
+          Our portfolio is a testament to our growth—transforming classroom concepts into robust web applications while mastering the modern tech stack together.
         </p>
 
         {/* Social Links Grid */}

@@ -7,8 +7,6 @@ import Team from './components/Team';
 import TechStack from './components/TechStack';
 // import Services from './components/Services';
 import Projects from './components/Projects';
-import Roadmap from './components/Roadmap';
-import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -26,11 +24,10 @@ function App() {
       
       <main>
         <Hero />
+        <Projects />
+        <TechStack />
         <Mission />
         <Team />
-        <TechStack />
-        {/* <Services /> */}
-        <Projects />
         <Contact />
       </main>
 
