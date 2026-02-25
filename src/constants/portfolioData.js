@@ -30,6 +30,7 @@ export const TEAM_MEMBERS = [
     role: "Lead Developer",
     yearLevel: "3rd Year Student",
     studentId: "UA202301978",
+    section: "LFAU122N002",
     program: "BS Information Technology",
     bio: "3rd Year Student & Lead Developer. Passionate about creating scalable web applications and solving complex problems. I oversee the technical architecture and ensure code quality.",
     about: "I am a dedicated 3rd-year developer with a strong focus on modern web technologies. My journey in tech started with a curiosity about how things work, which led me to master the React ecosystem. I enjoy mentoring team members and tackling challenging bugs.",
@@ -39,7 +40,7 @@ export const TEAM_MEMBERS = [
       "Optimized application performance"
     ],
     skills: ["React", "Node.js", "System Architecture"],
-    image: "/images/profile.jpg",
+    image: "/images/inbound8730679674434515280.jpg",
     social: {
       email: "christiannarral18@gmail.com",
       github: "https://github.com/zenmetsu3",
@@ -48,10 +49,11 @@ export const TEAM_MEMBERS = [
   },
   {
     id: 't2',
-    name: "Sarah Johnson",
+    name: "Angel Joy L. Badoles",
     yearLevel: "1st Year Student",
     role: "UI/UX Designer",
-    studentId: "UA2025" ,
+    studentId: "UA202401399" ,
+    section: "LFAU122N002",
     program: "BS Information Technology",
     bio: "Focuses on creating intuitive and visually appealing user interfaces. I bridge the gap between design and functionality.",
     about: "Design is my passion. I believe that a good user interface should be invisible—it should just work. I spend my free time exploring new design trends and prototyping in Figma.",
@@ -61,41 +63,20 @@ export const TEAM_MEMBERS = [
       "Conducted user research and testing"
     ],
     skills: ["Figma", "UI Design", "Prototyping"],
-    image: "/images/profile.jpg",
+    image: "/images/4abd6de9-a3b6-43b8-85b4-83d6efbc843d.jpg",
     social: {
-      email: "sarah@example.com",
-      github: "#",
-      resume: "#"
-    }
-  },
-  {
-    id: 't3',
-    name: "Michael Chen",
-    role: "Backend Engineer",
-    yearLevel: "1st Year Student",
-    studentId: "UA2025",
-    program: "BS Computer Science",
-    bio: "Expert in database architecture and API design. I ensure the system is robust, secure, and high-performing.",
-    about: "I love working with data. From designing efficient schemas to writing complex queries, backend development is where I thrive. I'm also interested in cloud infrastructure and DevOps.",
-    contributions: [
-      "Designed and implemented the database schema",
-      "Built RESTful APIs for data retrieval",
-      "Set up server-side validation and security"
-    ],
-    skills: ["SQL", "Express", "API Design"],
-    image: "/images/profile.jpg",
-    social: {
-      email: "michael@example.com",
+      email: "angeljoybadoles6@gmail.com",
       github: "#",
       resume: "#"
     }
   },
   {
     id: 't4',
-    name: "Emily Davis",
+    name: "Madelar, Carl Darryl S.",
     role: "Project Manager",
     yearLevel: "1st Year Student",
-    studentId: "UA2025",
+    studentId: "UA202201517",
+    section: "LFAU122N002",
     program: "BS Information Systems",
     bio: "Keeps the team organized and on track. I facilitate effective communication and ensure we meet our milestones.",
     about: "Organization is key to success. I use agile methodologies to keep the team focused and productive. I'm always looking for ways to improve our workflow and team dynamics.",
@@ -105,19 +86,20 @@ export const TEAM_MEMBERS = [
       "Maintained project documentation"
     ],
     skills: ["Agile", "Communication", "Leadership"],
-    image: "/images/profile.jpg",
+    image: "/images/0f2d6abb-df76-47c7-9f7e-6ba6719b8168.jpg",
     social: {
-      email: "emily@example.com",
+      email: "Carldarryl45@gmail.com",
       github: "#",
       resume: "#"
     }
   },
   {
     id: 't5',
-    name: "David Wilson",
+    name: "Cyrus Khane G. Gaufo",
     role: "QA Specialist",
     yearLevel: "1st Year Student",
-    studentId: "UA202501995",
+    studentId: "CA202506083",
+    section: "LFAU122N002",
     program: "BS Information Technology",
     bio: "Dedicated to ensuring software quality. I have a meticulous attention to detail and love breaking things to make them stronger.",
     about: "Quality is not an act, it's a habit. I take pride in finding edge cases and ensuring our application is bug-free. I also contribute to the documentation to help users understand our software.",
@@ -127,9 +109,32 @@ export const TEAM_MEMBERS = [
       "Performed cross-browser compatibility testing"
     ],
     skills: ["Testing", "Debugging", "Quality Assurance"],
-    image: "/images/profile.jpg",
+    image: "/images/5dc18063-070f-4610-932d-c441ec9b63a5.jpg",
     social: {
-      email: "david@example.com",
+      email: "khanegaufo@gmail.com",
+      github: "#",
+      resume: "#"
+    }
+  },
+  {
+    id: 't6',
+    name: "Kyzrelle Jay Dizon Gatlabayan",
+    role: "Frontend Developer",
+    yearLevel: "1st Year Student",
+    studentId: "UA202500347",
+    section: "LFAU122N002",
+    program: "BS Information Technology",
+    bio: "Passionate about creating responsive and interactive web experiences. I love bringing designs to life with clean code.",
+    about: "I enjoy the creative aspect of frontend development. Experimenting with new libraries and frameworks is my favorite way to learn. I strive to create seamless user experiences.",
+    contributions: [
+      "Implemented responsive design features",
+      "Collaborated on UI component library",
+      "Optimized frontend performance"
+    ],
+    skills: ["React", "CSS", "JavaScript"],
+    image: "/images/639667023_2151412372358405_7534846141430345793_n.jpg",
+    social: {
+      email: "kyzrellejaygatlabayan@gmail.com",
       github: "#",
       resume: "#"
     }
@@ -141,7 +146,7 @@ export const ABOUT_ME = {
   name: "Christian Narral",
   role: "Creative Developer & Designer",
   bio: "My main hobbies are playing online games and solving the Rubik’s Cube, which help me develop focus, strategy, and quick decision-making. Gaming allows me to think critically and work as part of a team, especially in competitive environments. Solving the Rubik’s Cube challenges my problem-solving skills and improves my patience and concentration. Through these hobbies I continuously train myself to think faster stay determined and enjoy every challenge I face.",
-  image: "/images/profile.jpg"
+  image: "/images/inbound8730679674434515280.jpg"
 };
 
 // Social Media Links
